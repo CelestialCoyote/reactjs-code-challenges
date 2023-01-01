@@ -3,7 +3,8 @@ export default function Color ({ hex, name }) {
       <div
         className='color-square' style={{ backgroundColor: hex }}
       >
-        <h2>{name}</h2>
+        <label>{name}</label>
+        <label>{hex}</label>
       </div>
     )
   }

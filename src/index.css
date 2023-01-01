@@ -23,7 +23,7 @@ body, #root {
 }
 
 .app {
-    background-color: yellow;
+    background-color: black;
     display: flex;
     flex-direction: column;
     flex-grow: 1;

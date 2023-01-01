@@ -1,7 +1,39 @@
-.page2 {
-    background-color: lightgreen;
+.challenge2 {
+    background-color: gray;
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
     font-size: 1.5rem;
     margin: 1.0em;
+    padding: 1.0em;
+}
+
+.dark-mode-page {
+    align-items: center;
+    background-color: lightgray;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.dark-mode {
+    background-color: #171717;
+}
+
+button {
+    padding: 1.0rem;
+    margin: 0.55rem;
+    outline: none;
+}
+
+.dark-mode-button {
+    border: 2px solid lightgray;
+    color: lightgray;
+    background-color: #171717;
+}
+
+.light-mode-button {
+    border: 2px solid #171717;
+    color: #171717;
+    background-color: lightgray;
 }

@@ -1,13 +1,13 @@
 import React from 'react';
-import ColorRenderer from '../../components/Challege1/ColorRenderer';
+import ColorList from '../../components/Challege1/ColorList';
 import './Challenge1.css';
 
 
 const Challenge1 = () => {
     return (
-        <div className="Challenge1">
-            Challenge 1
-            <ColorRenderer />
+        <div className="challenge1">
+            <label>Challenge 1</label>
+            <ColorList />
         </div>
     );
 };
