@@ -14,16 +14,16 @@ const Navbar = () => {
                 Home
             </NavLink>
             <NavLink
-                to='/page1'
+                to='/challenge1'
                 className={({ isActive }) => (isActive ? 'link active' : 'link')}
             >
-                Page 1
+                Challenge 1
             </NavLink>
             <NavLink
-                to='/page2'
+                to='/challenge2'
                 className={({ isActive }) => (isActive ? 'link active' : 'link')}
             >
-                Page 2
+                Challenge 2
             </NavLink>
         </nav>
     );
