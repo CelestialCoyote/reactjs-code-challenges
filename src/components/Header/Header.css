@@ -1,0 +1,11 @@
+.header {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.header p {
+    font-size: 2.5rem;
+}

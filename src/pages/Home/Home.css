@@ -1,0 +1,7 @@
+.home {
+    background-color: lightblue;
+    display: flex;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    margin: 1.0em;
+}
