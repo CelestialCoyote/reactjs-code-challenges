@@ -10,16 +10,16 @@ const Home = () => {
             
             <NavLink
                 to='/challenge1'>
-                Challenge 1
+                Color Renderer
             </NavLink>
             <NavLink to='/challenge2'>
-                Challenge 2
+                Dark Mode
             </NavLink>
             <NavLink to='/challenge3'>
-                Challenge 3
+                Form Validator
             </NavLink>
             <NavLink to='/challenge4'>
-                Challenge 4
+                Dog Pics
             </NavLink>
             <NavLink to='/challenge5'>
                 Challenge 5
