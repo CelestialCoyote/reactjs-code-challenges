@@ -1,5 +1,5 @@
 import React from 'react';
-import DarkMode from '../../components/Challenge2/DarkMode';
+import DarkMode from '../../components/02-DarkMode/DarkMode';
 import './Challenge2.css';
 
 

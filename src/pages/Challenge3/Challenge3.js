@@ -1,5 +1,5 @@
 import React from 'react';
-import FormValidator from '../../components/Challenge3/FormValidator';
+import FormValidator from '../../components/03-FormValidator/FormValidator';
 import './Challenge3.css';
 
 

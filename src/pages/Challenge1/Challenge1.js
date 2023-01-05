@@ -1,5 +1,5 @@
 import React from 'react';
-import ColorList from '../../components/Challege1/ColorList';
+import ColorList from '../../components/01-ColorRenderer/ColorList';
 import './Challenge1.css';
 
 
