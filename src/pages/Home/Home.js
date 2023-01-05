@@ -22,7 +22,25 @@ const Home = () => {
                 Dog Pics
             </NavLink>
             <NavLink to='/challenge5'>
-                Challenge 5
+                Score Keeper
+            </NavLink>
+            <NavLink to='/challenge6'>
+                Window Event
+            </NavLink>
+            <NavLink to='/challenge7'>
+                Color Picker
+            </NavLink>
+            <NavLink to='/challenge8'>
+                Pixel Art
+            </NavLink>
+            <NavLink to='/challenge9'>
+                Simple Calculator
+            </NavLink>
+            <NavLink to='/challenge10'>
+                Focus An Input
+            </NavLink>
+            <NavLink to='/challenge11'>
+                Shopping Cart
             </NavLink>
         </div>
     );

@@ -1,0 +1,10 @@
+.challenge7 {
+    background-color: gray;
+    border-radius: 1.0em;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    margin: 1.0em;
+    padding: 1.0em;
+}

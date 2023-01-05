@@ -1,0 +1,9 @@
+.no-page {
+    background-color: gray;
+    display: flex;
+    flex-direction: columm;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 1.0em;
+    padding: 1.0em;
+}
