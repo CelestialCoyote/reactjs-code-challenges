@@ -1,7 +1,17 @@
 .dog-pics {
+    align-items: center;
+    /*border: 1px solid red;*/
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
+    flex-grow: 1;
+}
+
+.image-container {
+    /*border: 1px solid blue;*/
+    max-height: 25.0rem;
+    width: auto;
+}
+
+button {
+    width: 8.0rem;
 }
