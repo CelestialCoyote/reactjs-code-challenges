@@ -1,0 +1,21 @@
+.color-picker {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.color-choices {
+    display: flex;
+    flex-direction: row;
+}
+
+.color-square {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2.0em;
+    margin: 1.0em;
+    width: 40%;
+}

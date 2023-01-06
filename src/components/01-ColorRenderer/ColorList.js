@@ -1,4 +1,5 @@
 import Color from './Color'
+import './ColorList.css';
 
 
 const colors = [
