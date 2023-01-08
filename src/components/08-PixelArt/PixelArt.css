@@ -1,0 +1,11 @@
+.pixel-art {
+    border: 1px solid red;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.color-selector {
+    height: 5px;
+    /*width: 5px;*/
+}

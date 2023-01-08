@@ -1,3 +1,4 @@
+import './PixelArt.css';
 
 
 const ColorPicker = () => {
@@ -5,8 +6,13 @@ const ColorPicker = () => {
 
     return (
         <div>
-            <h1>Choose a color</h1>
-            {colors.map(color => <button key={color} style={{ backgroundColor: color }} />)}
+            <label>Choose a color</label>
+            {colors.map(color =>
+                <button
+                    key={color}
+                    className='color-selector'
+                    style={{ backgroundColor: color }}
+                />)}
         </div>
     );
 };
@@ -27,7 +33,7 @@ const Pixels = () => {
 
 const PixelArt = () => {
     return (
-        <div>
+        <div className='pixel-art'>
             <ColorPicker />
             <Pixels />
         </div>
