@@ -1,7 +1,11 @@
+import { useContext, useState } from 'react';
+import { PixelColorContextProvider } from './PixelColorContext';
+import { PixelColorContext } from './PixelColorContext';
 import './PixelArt.css';
 
 
 const ColorPicker = () => {
+    const { setPixelColor } = useContext(PixelColorContext);
     const colors = ['red', 'blue', 'yellow', 'green', 'black', 'white', 'purple'];
 
     return (
@@ -12,13 +16,22 @@ const ColorPicker = () => {
                     key={color}
                     className='color-selector'
                     style={{ backgroundColor: color }}
+                    onClick={() => setPixelColor(color)}
                 />)}
         </div>
     );
 };
 
 const Pixel = () => {
-    return <div style={{ height: '20px', width: '20px', backgroundColor: 'lightGrey', margin: '1px' }} />
+    const { pixelColor } = useContext(PixelColorContext);
+    const [color, setColor] = useState('LightGrey');
+
+    return (
+        <button
+            onClick={() => setColor(pixelColor)}
+            style={{ height: '20px', width: '20px', backgroundColor: color, margin: '1px' }}
+        />
+    );
 };
 
 const Pixels = () => {
@@ -32,11 +45,15 @@ const Pixels = () => {
 };
 
 const PixelArt = () => {
+    const [color, setColor] = useState('LightGrey');
+    
     return (
-        <div className='pixel-art'>
-            <ColorPicker />
-            <Pixels />
-        </div>
+        <PixelColorContextProvider value={{ color, setColor }}>
+            <div className='pixel-art'>
+                <ColorPicker />
+                <Pixels />
+            </div>
+        </PixelColorContextProvider>
     );
 };
 
